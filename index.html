@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas2</title>
+    <style>
+
+        body {
+            background-color: gray;
+            
+        }
+
+        .home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: aqua;
+        }
+        .card {
+            display: flex;
+            background-color: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            width: 512px;
+        }
+
+        .home .card .image img {
+            border-radius: 15px;
+
+        }
+
+        .home .card .info {
+        
+        }
+
+        .home .card .info p {
+            color: pink;
+        }
+
+        .home .card .info button {
+            background-color: purple;
+            border-radius: 15px;
+            border: none;
+            width: 50%;
+            height: 20%;
+            color: white;
+            margin-top: 2.8rem;
+            
+        }
+
+        .info {
+            margin-left: 1.2rem;
+        }
+
+        @media screen and (max-width: 720px) {
+            .home .card {
+                flex-direction: column;
+                width: 80%;
+            }
+
+            .home .card .image {
+                display: flex;
+                justify-content: center;
+            }
+
+            .home .card .image img {
+               width: 100%;
+               height: 250px;
+               object-fit: cover;
+            }
+            .home .card .info {
+                margin-left: 0;
+            }
+
+            .home .card .info button {
+                height: 2.8rem;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="home">
+        <div class="card">
+            <div class="image">
+                <img height="200px" src="./pasfoto.jpg" alt="">
+            </div>
+            <div class="info">
+                <h1>FARHAN HIDAYAT</h1>
+                <P>Teknik Informatika</P>
+                <button id="tom
+                ">follow</button>
+            </div>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>
